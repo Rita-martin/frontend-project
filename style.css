@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(171, 243, 243);
+}
+#header{
+    text-align: center;
+    padding-top: 5px;
+}
+.forms{
+    background-color: rgb(252, 250, 250);
+    height: 100vh;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.header2{
+    text-align: center;
+    padding-top: 20px
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    font-size: 15px;
+}
+.btn{
+    font-size: 20px;
+    padding-left: 6rem;
+    padding-right: 6rem;    
+}
+.btn p{
+    display: inline-block;
+}
+

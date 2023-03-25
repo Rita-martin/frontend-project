@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Survey Form</h1>
+    </div>
+    <section class="forms" >
+        <div class="header2">
+            <h4>Let us know how we can improve freeCodeCamp </h4><br>
+        </div>
+        <div class="text">
+            <sup>.</sup><label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="text" required><br><br>
+
+           <sup>.</sup> <label for="Email">Email:</label>
+            <input type="email" placeholder="Enter your Email" id="Email" required><br><br>
+
+            <sup>.</sup><label for="age">Age:</label>
+            <input type="number" placeholder="Age" required><br><br>
+
+        </div>
+
+        <div class="btn">
+            <label>Which option best describes your current role?</label>
+            <select name="role" id="role" required>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="supervisor">Supervisor</option>
+                <option value="lead">Team Lead</option>
+            </select><br><br>
+
+            <p>How likely is that you would recommend freeCodeCamp to a friend?</p><br>
+            <input type="radio" id="definitely"
+            name="recommend" value="definitely">
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" id="maybe"
+            name="recommend" value="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" id="not sure"
+            name="recommend" value="not sure">
+            <label for="not sure">Not sure</label><br><br>
+
+            <label>What do you like most in FCC:</label>
+            <select name="selectOption" id="selectOPtion" required>
+                <option value="selectoption">select an option</option>
+                <option value="html">Html</option>
+                <option value="html">Css</option>
+                <option value="html">Javascript</option>
+                <option value="html">React</option>
+            </select><br><br>
+
+            <div class="checkbox">
+            <p>Things that should be improved in the future(check all that apply):</p><br>
+            <input type="checkbox" id="frontend project"
+            name="check" value="frontend  project">
+            <label for="frontend project">Front-end Projects</label><br>
+            <input type="checkbox" id="backend project"
+            name="check" value="backend  project">
+            <label for="backend project">Back-end Projects</label><br>
+            <input type="checkbox" id=" project"
+            name="check" value="project">
+            <label for=" project">Data Visualization</label><br>
+            </div>
+
+
+        </div>
+    </section>
+    
+
+</body>
+</html>
